@@ -1,0 +1,84 @@
+body {
+    background-image: url(../img/backgr.jpg);
+    margin: 0;
+}
+
+.header-backgr {
+    background-color: #00BFA5;
+    margin: 0;
+    padding: 7px;
+    font-size: 13px;
+    color: white;
+}
+
+.content {
+    display: block;
+    background-color: #1E2428;
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.users-backgr {
+    background-color: #2A2F32;
+    color: #BDBEC0;
+}
+
+section, .user {
+    width: 39%;
+    display: inline-block;
+    padding: 0 5%;
+}
+
+.user {
+    position: relative; 
+}
+
+.input-text {
+    padding: 15px;
+    border-radius: 25px;
+    width: 77%;;
+    background-color: #33383B;
+    color: #DDDDDF;
+    border: none;
+}
+
+.input-text:active {
+    background-color: #33383B;
+}
+
+.img-send {
+    width: 27px;
+    top: 24px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.img-users {
+    border-radius: 100%;
+    width: 50px;
+    padding: 5px;
+}
+
+.name-users {
+    position:absolute;
+    left: 156px;
+    top: 19px;
+}
+
+.message-user1, .message-user2 {
+    background-color: #056162;
+    color: white;
+    display: inline;
+    padding: 5px 50px 5px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 1200px) {
+    .name-users {
+        left: 125px;
+    }
+}
