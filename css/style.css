@@ -67,7 +67,7 @@ section, .user {
     top: 19px;
 }
 
-.message-user1, .message-user2 {
+.section-message1 > div, .section-message2 > div {
     background-color: #056162;
     color: white;
     display: inline;
