@@ -7,18 +7,22 @@ submitUser1.addEventListener('click',(event)=>{
     let message = inputUser1.value;//получает значение
     inputUser1.value='';//очищает инпут
     
-    const sectionMessage1 = document.querySelector('.section-message1');
+    const sectionMessage1 = document.querySelector('.sections-blocks1');
     const el = document.createElement('div');
     el.innerText = message;
-    sectionMessage1.appendChild(el);
+    if(message != '') {
+        sectionMessage1.appendChild(el);
+    }
 });
 
 submitUser2.addEventListener('click',(event)=>{
-    let message=inputUser2.value;
+    let message = inputUser2.value;
     inputUser2.value='';
     
-    const sectionMessage2 = document.querySelector('.section-message2');
+    const sectionMessage2 = document.querySelector('.sections-blocks2');
     const el = document.createElement('div');
     el.innerText = message;
-    sectionMessage2.appendChild(el);
+    if(message != '') {
+        sectionMessage2.appendChild(el);
+    }
 });
