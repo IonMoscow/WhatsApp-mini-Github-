@@ -67,14 +67,22 @@ section, .user {
     top: 19px;
 }
 
-.section-message1 > div, .section-message2 > div {
+.sections-blocks1, .sections-blocks2 {
+    display: inline-block;
+    overflow: auto;
+    height: 300px;
+}
+
+.sections-blocks1 > div, .sections-blocks2 > div {
     background-color: #056162;
     color: white;
-    display: inline;
+    display: block;
     padding: 5px 50px 5px 5px;
     border-radius: 10px;
     font-size: 20px;
     margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 1200px) {
